@@ -1,0 +1,24 @@
+{
+	"name": "absurdly.js",
+	"version": "0.1.0",
+	"description": "A package for doing the absurd",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha --require babel-core/register",
+		"start": "babel-node --presets es2015 index.js"
+	},
+	"keywords": [
+		"absurd",
+		"string",
+		"number"
+	],
+	"author": "Henrick Tissink",
+	"license": "MIT",
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-core": "^6.26.3",
+		"babel-preset-es2015": "^6.24.1",
+		"chai": "^4.2.0",
+		"mocha": "^6.2.1"
+	}
+}
