@@ -3,10 +3,11 @@ language: node_js
 node_js:
     - stable
 
-install:
+before-script:
     - cd Absurdly.JS/
+
+install:
     - npm install
 
 script:
-    - cd Absurdly.JS/
     - npm test
