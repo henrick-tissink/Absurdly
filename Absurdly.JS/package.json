@@ -6,7 +6,7 @@
 	"scripts": {
 		"test": "mocha --require babel-core/register",
 		"start": "babel-node --presets es2015 index.js",
-		"cover": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+		"cover": "babel-node node_modules/.bin/babel-istanbul cover node_modules/.bin/_mocha -- -R spec"
 	},
 	"keywords": [
 		"absurd",
@@ -23,6 +23,8 @@
 		"mocha": "^6.2.1"
 	},
 	"dependencies": {
+		"babel-istanbul": "^0.12.2",
+		"babel-plugin-istanbul": "^5.2.0",
 		"coveralls": "^3.0.6",
 		"istanbul": "^0.4.5"
 	}
