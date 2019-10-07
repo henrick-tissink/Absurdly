@@ -4,9 +4,9 @@ node_js:
     - stable
 
 install:
-    - cd Absurdly.js
+    - cd Absurdly.JS/
     - npm install
 
 script:
-    - cd Absurdly.js
+    - cd Absurdly.JS/
     - npm test
