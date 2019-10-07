@@ -10,7 +10,7 @@ A library to do the absurd
 
 ```js
 import { firstLetter } from 'absurdly';
-var formattedNum = firstLetter('some text');
+var output = firstLetter('some text');
 ```
 
 Output should be `s`
