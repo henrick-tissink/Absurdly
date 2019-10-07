@@ -6,7 +6,7 @@
 	"scripts": {
 		"test": "mocha --require babel-core/register",
 		"start": "babel-node --presets es2015 index.js",
-		"cover": "nyc --require babel-core/register node_modules/.bin/mocha test/test.js"
+		"cover": "nyc --reporter=lcov --require babel-core/register node_modules/.bin/mocha test/*"
 	},
 	"keywords": [
 		"absurd",
